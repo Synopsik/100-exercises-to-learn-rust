@@ -1,10 +1,10 @@
 [workspace]
-members = [
+members = ["rust_by_practice/basic_types", "rust_by_practice/variable_examples",
   "exercises/*/*",
   "helpers/common",
   "helpers/mdbook-exercise-linker",
   "helpers/mdbook-link-shortener",
-  "helpers/ticket_fields",
+  "helpers/ticket_fields", "GPT_exercises/gpt_exercises_01",
 ]
 resolver = "2"
 
